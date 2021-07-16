@@ -28,8 +28,6 @@
   </url><url>
     <loc>/home-unused/tags/</loc>
   </url><url>
-    <loc>/</loc>
-  </url><url>
     <loc>/authors/</loc>
   </url><url>
     <loc>/categories/</loc>
@@ -45,6 +43,8 @@
     <loc>/talk/</loc>
   </url><url>
     <loc>/author/shivam-thukral/</loc>
+  </url><url>
+    <loc>/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>
