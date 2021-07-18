@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home-unuseds | Shivam-Thukral</title>
+    <title>Home-unuseds | Shivam Thukral</title>
     <link>/home-unused/</link>
       <atom:link href="/home-unused/index.xml" rel="self" type="application/rss+xml" />
     <description>Home-unuseds</description>
@@ -99,14 +99,6 @@
       <link>/home-unused/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/home-unused/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>/home-unused/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home-unused/projects/</guid>
       <description></description>
     </item>
     

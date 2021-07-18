@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI | Shivam Thukral</title>
+    <link>/tag/ai/</link>
+      <atom:link href="/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>AI</title>
+      <link>/tag/ai/</link>
+    </image>
+    
+    <item>
+      <title>Modelling-Human-Behaviour-in-Chess</title>
+      <link>/project/chess/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/project/chess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verifying DNN</title>
+      <link>/project/verifying_dnn/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/project/verifying_dnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Human Pose Estimation</title>
+      <link>/project/3d_pose/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+      <guid>/project/3d_pose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Detection and Recognition in Natural Scenes</title>
+      <link>/project/text_detection/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>/project/text_detection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

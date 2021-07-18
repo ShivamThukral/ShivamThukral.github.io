@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verification | Shivam Thukral</title>
+    <link>/tag/verification/</link>
+      <atom:link href="/tag/verification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Verification</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Verification</title>
+      <link>/tag/verification/</link>
+    </image>
+    
+    <item>
+      <title>Verifying DNN</title>
+      <link>/project/verifying_dnn/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/project/verifying_dnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sudoku SAT Solver</title>
+      <link>/project/sudoku_solver/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>/project/sudoku_solver/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

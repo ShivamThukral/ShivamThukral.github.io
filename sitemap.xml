@@ -14,8 +14,6 @@
   </url><url>
     <loc>/home-unused/posts/</loc>
   </url><url>
-    <loc>/home-unused/projects/</loc>
-  </url><url>
     <loc>/home-unused/people/</loc>
   </url><url>
     <loc>/home-unused/talks/</loc>
@@ -23,6 +21,21 @@
     <loc>/home-unused/featured/</loc>
   </url><url>
     <loc>/home-unused/tags/</loc>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2021-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/tag/ros/</loc>
+    <lastmod>2021-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/visual_servoing/</loc>
+    <lastmod>2021-03-01T00:00:00-08:00</lastmod>
   </url><url>
     <loc>/publication-type/0/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
@@ -63,14 +76,32 @@
     <loc>/tag/robot-art/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/swagat-kumar/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>/tag/ai/</loc>
+    <lastmod>2020-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/chess/</loc>
+    <lastmod>2020-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/tag/verification/</loc>
+    <lastmod>2020-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/verifying_dnn/</loc>
+    <lastmod>2020-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/3d_pose/</loc>
+    <lastmod>2019-10-01T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/project/sudoku_solver/</loc>
+    <lastmod>2019-03-03T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/text_detection/</loc>
+    <lastmod>2019-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/bugflood/</loc>
+    <lastmod>2018-10-01T00:00:00-07:00</lastmod>
   </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
@@ -89,6 +120,15 @@
   </url><url>
     <loc>/author/shivam-thukral/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/bloated_messages/</loc>
+    <lastmod>2017-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/project/clang-analysis/</loc>
+    <lastmod>2015-03-01T00:00:00-08:00</lastmod>
+  </url><url>
+    <loc>/tag/other/</loc>
+    <lastmod>2015-03-01T00:00:00-08:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
   </url><url>

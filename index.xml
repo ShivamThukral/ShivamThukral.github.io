@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shivam-Thukral</title>
+    <title>Shivam Thukral</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Shivam-Thukral</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <description>Shivam Thukral</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Shivam-Thukral</title>
+      <title>Shivam Thukral</title>
       <link>/</link>
     </image>
     
@@ -103,14 +103,6 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>/home-unused/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home-unused/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Meet the Team</title>
       <link>/home-unused/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -143,6 +135,14 @@
     </item>
     
     <item>
+      <title>Visual Servoing</title>
+      <link>/project/visual_servoing/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <guid>/project/visual_servoing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chitrakar: Robotic System for Drawing Jordan Curve of Facial Portrait</title>
       <link>/publication/conference-paper-chitrakar/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
@@ -168,6 +168,54 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
+      <title>Modelling-Human-Behaviour-in-Chess</title>
+      <link>/project/chess/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/project/chess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verifying DNN</title>
+      <link>/project/verifying_dnn/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/project/verifying_dnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Human Pose Estimation</title>
+      <link>/project/3d_pose/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+      <guid>/project/3d_pose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sudoku SAT Solver</title>
+      <link>/project/sudoku_solver/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>/project/sudoku_solver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Detection and Recognition in Natural Scenes</title>
+      <link>/project/text_detection/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+      <guid>/project/text_detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BugFlood</title>
+      <link>/project/bugflood/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      <guid>/project/bugflood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A virtual bug planning technique for 2D robot path planning</title>
       <link>/publication/conference-paper-acc/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
@@ -190,6 +238,22 @@ Supplementary notes can be added here, including [code and math](https://sourcet
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Resolving Message Logic Dependencies in ROS</title>
+      <link>/project/bloated_messages/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 -0800</pubDate>
+      <guid>/project/bloated_messages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization Tool for C/C&#43;&#43; codes</title>
+      <link>/project/clang-analysis/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
+      <guid>/project/clang-analysis/</guid>
+      <description></description>
     </item>
     
   </channel>
