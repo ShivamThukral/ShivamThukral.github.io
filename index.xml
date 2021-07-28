@@ -5,9 +5,9 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Shivam Thukral</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 May 2021 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Shivam Thukral</title>
       <link>/</link>
     </image>
@@ -111,14 +111,6 @@
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>/home-unused/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home-unused/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Featured Publications</title>
       <link>/home-unused/featured/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,10 +127,50 @@
     </item>
     
     <item>
+      <title>3D Object Detection for Indoor Scenes</title>
+      <link>/talk/3d-object-detection/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 -0700</pubDate>
+      <guid>/talk/3d-object-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Visual Servoing</title>
       <link>/project/visual_servoing/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
       <guid>/project/visual_servoing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Servoing using Industrial Manipulator</title>
+      <link>/talk/visual-servoing/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 -0800</pubDate>
+      <guid>/talk/visual-servoing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncalibrated image-based visual servoing</title>
+      <link>/talk/ibvs/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>/talk/ibvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual navigation and obstacle avoidance using a steering potential function</title>
+      <link>/talk/potential-functions/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0700</pubDate>
+      <guid>/talk/potential-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes</title>
+      <link>/talk/3d-semantic-segmentation/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 -0700</pubDate>
+      <guid>/talk/3d-semantic-segmentation/</guid>
       <description></description>
     </item>
     
@@ -180,6 +212,14 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       <link>/project/verifying_dnn/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
       <guid>/project/verifying_dnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Simulation of Inextensible Cloth</title>
+      <link>/talk/cloth-simulation/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
+      <guid>/talk/cloth-simulation/</guid>
       <description></description>
     </item>
     

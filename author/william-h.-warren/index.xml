@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>William H. Warren | Shivam Thukral</title>
+    <link>/author/william-h.-warren/</link>
+      <atom:link href="/author/william-h.-warren/index.xml" rel="self" type="application/rss+xml" />
+    <description>William H. Warren</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2020 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>William H. Warren</title>
+      <link>/author/william-h.-warren/</link>
+    </image>
+    
+    <item>
+      <title>Visual navigation and obstacle avoidance using a steering potential function</title>
+      <link>/talk/potential-functions/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0700</pubDate>
+      <guid>/talk/potential-functions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
