@@ -5,7 +5,7 @@
     <link>/author/rony-goldenthal/</link>
       <atom:link href="/author/rony-goldenthal/index.xml" rel="self" type="application/rss+xml" />
     <description>Rony Goldenthal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Oct 2019 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Rony Goldenthal</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Efficient Simulation of Inextensible Cloth</title>
       <link>/talk/cloth-simulation/</link>
-      <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/talk/cloth-simulation/</guid>
       <description></description>
     </item>

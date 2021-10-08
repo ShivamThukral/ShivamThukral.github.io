@@ -5,7 +5,7 @@
     <link>/author/sai-kit-yeung/</link>
       <atom:link href="/author/sai-kit-yeung/index.xml" rel="self" type="application/rss+xml" />
     <description>Sai-Kit Yeung</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2020 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Sai-Kit Yeung</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes</title>
       <link>/talk/3d-semantic-segmentation/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/talk/3d-semantic-segmentation/</guid>
       <description></description>
     </item>

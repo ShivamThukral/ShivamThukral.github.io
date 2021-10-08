@@ -5,7 +5,7 @@
     <link>/tag/ros/</link>
       <atom:link href="/tag/ros/index.xml" rel="self" type="application/rss+xml" />
     <description>ROS</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>ROS</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Visual Servoing</title>
       <link>/project/visual_servoing/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       <guid>/project/visual_servoing/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>BugFlood</title>
       <link>/project/bugflood/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/project/bugflood/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Resolving Message Logic Dependencies in ROS</title>
       <link>/project/bloated_messages/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       <guid>/project/bloated_messages/</guid>
       <description></description>
     </item>

@@ -5,7 +5,7 @@
     <link>/tag/vision/</link>
       <atom:link href="/tag/vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Vision</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Vision</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Visual Servoing</title>
       <link>/project/visual_servoing/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       <guid>/project/visual_servoing/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>3D Human Pose Estimation</title>
       <link>/project/3d_pose/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/3d_pose/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Text Detection and Recognition in Natural Scenes</title>
       <link>/project/text_detection/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       <guid>/project/text_detection/</guid>
       <description></description>
     </item>

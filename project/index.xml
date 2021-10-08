@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Visual Servoing</title>
       <link>/project/visual_servoing/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       <guid>/project/visual_servoing/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Modelling-Human-Behaviour-in-Chess</title>
       <link>/project/chess/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/project/chess/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Verifying DNN</title>
       <link>/project/verifying_dnn/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/project/verifying_dnn/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>3D Human Pose Estimation</title>
       <link>/project/3d_pose/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/3d_pose/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>Sudoku SAT Solver</title>
       <link>/project/sudoku_solver/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       <guid>/project/sudoku_solver/</guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>Text Detection and Recognition in Natural Scenes</title>
       <link>/project/text_detection/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       <guid>/project/text_detection/</guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>BugFlood</title>
       <link>/project/bugflood/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/project/bugflood/</guid>
       <description></description>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>Resolving Message Logic Dependencies in ROS</title>
       <link>/project/bloated_messages/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       <guid>/project/bloated_messages/</guid>
       <description></description>
     </item>
@@ -79,7 +79,7 @@
     <item>
       <title>Characterization Tool for C/C&#43;&#43; codes</title>
       <link>/project/clang-analysis/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
       <guid>/project/clang-analysis/</guid>
       <description></description>
     </item>
