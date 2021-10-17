@@ -20,6 +20,33 @@
   </url><url>
     <loc>/home-unused/tags/</loc>
   </url><url>
+    <loc>/tag/ai/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/approachfinder-nn/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/ros/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/thesis/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/vision/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/approachfinder_cv/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/talk/3d-object-detection/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,31 +56,10 @@
     <loc>/talk/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/shivam-thukral/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/ai/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/project/ros_votenet/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/ros/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/thesis/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/vision/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/visual_servoing/</loc>
