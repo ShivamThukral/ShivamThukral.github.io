@@ -20,6 +20,21 @@
   </url><url>
     <loc>/home-unused/tags/</loc>
   </url><url>
+    <loc>/talk/approachfinder/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/shivam-thukral/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/ai/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,9 +45,6 @@
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/ros/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -51,15 +63,6 @@
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/3d-object-detection/</loc>
-    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/talk/</loc>
-    <lastmod>2021-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/shivam-thukral/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/ros_votenet/</loc>
