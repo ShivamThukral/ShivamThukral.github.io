@@ -5,7 +5,7 @@
     <link>/author/shivam-thukral/</link>
       <atom:link href="/author/shivam-thukral/index.xml" rel="self" type="application/rss+xml" />
     <description>Shivam Thukral</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Shivam Thukral</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Locus Learning : Object Detection</title>
+      <link>/talk/locus-learning/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/talk/locus-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Negative Obstacle Detection for LocusBots</title>
+      <link>/talk/negative-obstacle-detection/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/talk/negative-obstacle-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ApproachFinder: Real-time Perception of Potential Docking Locations for Smart Wheelchairs</title>
       <link>/talk/approachfinder/</link>
-      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
       <guid>/talk/approachfinder/</guid>
       <description></description>
     </item>
