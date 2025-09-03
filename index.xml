@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Shivam Thukral</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Shivam Thukral</title>
@@ -127,6 +127,119 @@
     </item>
     
     <item>
+      <title>Diffusion Model</title>
+      <link>/project/ddpm/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>/project/ddpm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditional GAN</title>
+      <link>/project/cgan/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>/project/cgan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification with Vision Transformers</title>
+      <link>/project/vit/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>/project/vit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yolo Object Detector</title>
+      <link>/project/yolo/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <guid>/project/yolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLIP Classifcation</title>
+      <link>/project/clip/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>/project/clip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System and Method for Autonomous Multi-bin Parcel Loading System</title>
+      <link>/publication/palletiser-us/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/palletiser-us/</guid>
+      <description>&lt;!--
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Segmentation with UNet</title>
+      <link>/project/unet/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/project/unet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AlexNet</title>
+      <link>/project/alexnet/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/project/alexnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ResNet-18</title>
+      <link>/project/resnet-18/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/resnet-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial Transform Networks</title>
+      <link>/project/stn/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/stn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning with VGG16</title>
+      <link>/project/vgg16/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/vgg16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAE vs MOCO Embedding</title>
+      <link>/project/mae_vs_moco/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/mae_vs_moco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Locus Learning : Object Detection</title>
       <link>/talk/locus-learning/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -139,14 +252,6 @@
       <link>/talk/negative-obstacle-detection/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/talk/negative-obstacle-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PyTorch Vision Tutorials</title>
-      <link>/project/pytorch_tutoirals/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/project/pytorch_tutoirals/</guid>
       <description></description>
     </item>
     
@@ -296,47 +401,6 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>System and Method for Autonomous Multi-bin Parcel Loading System</title>
-      <link>/publication/palletiser-us/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/palletiser-us/</guid>
-      <description>&lt;!--
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sudoku SAT Solver</title>
-      <link>/project/sudoku_solver/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/project/sudoku_solver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Text Detection and Recognition in Natural Scenes</title>
-      <link>/project/text_detection/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/project/text_detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>BugFlood</title>
       <link>/project/bugflood/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
@@ -367,22 +431,6 @@ Supplementary notes can be added here, including [code and math](https://sourcet
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Resolving Message Logic Dependencies in ROS</title>
-      <link>/project/bloated_messages/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/project/bloated_messages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Characterization Tool for C/C&#43;&#43; codes</title>
-      <link>/project/clang-analysis/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>/project/clang-analysis/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
     <link>/author/aniruddha-singhal/</link>
       <atom:link href="/author/aniruddha-singhal/index.xml" rel="self" type="application/rss+xml" />
     <description>Aniruddha Singhal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Aniruddha Singhal</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Chitrakar: Robotic System for Drawing Jordan Curve of Facial Portrait</title>
-      <link>/publication/conference-paper-chitrakar/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper-chitrakar/</guid>
+      <title>System and Method for Autonomous Multi-bin Parcel Loading System</title>
+      <link>/publication/palletiser-us/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/palletiser-us/</guid>
       <description>&lt;!--
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -38,10 +38,10 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
-      <title>System and Method for Autonomous Multi-bin Parcel Loading System</title>
-      <link>/publication/palletiser-us/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/palletiser-us/</guid>
+      <title>Chitrakar: Robotic System for Drawing Jordan Curve of Facial Portrait</title>
+      <link>/publication/conference-paper-chitrakar/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper-chitrakar/</guid>
       <description>&lt;!--
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;

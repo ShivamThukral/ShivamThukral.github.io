@@ -242,7 +242,7 @@
   <meta property="og:description" content="Senior Software Engineer - Robotics and Perception"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-02-15T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2025-05-15T00:00:00&#43;00:00">
   
 
   
@@ -737,7 +737,7 @@
           
         
         <li>
-          <a href="/files/[CV]_Shivam_Thukral.pdf" >
+          <a href="/files/[Resume]ShivamThukral.pdf" >
             <i class="ai ai-cv big-icon"></i>
           </a>
         </li>
@@ -886,7 +886,7 @@
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Senior Software Engineer - Robotics and Perception</h4>
             <h4 class="card-title exp-company text-muted my-0"><a href="https://locusrobotics.com/" target="_blank" rel="noopener">Locus Robotics</a></h4>
             <div class="text-muted exp-meta">
-              April, 2022 –
+              March, 2024 –
               
                 Present
               
@@ -896,7 +896,56 @@
               
             </div>
             <div class="card-text"><p><strong>Object Detection</strong>
-Developed an advanced object detection system, Locus Learning, utilizing transfer learning with <a href="https://github.com/Megvii-BaseDetection/YOLOX">YOLOX</a> to detect LocusBots, persons, and carts in real-time within indoor warehouse environments. Optimized model inference by porting it from Python to C++, achieving a 15% reduction in inference time and a 35% decrease in CPU load. Single-handedly integrated the object detector into the existing Locus framework, converted PyTorch weights into ONNX format for faster Intel iGPU inference, and introduced a lightweight inference visualizer for enhanced detection performance. Currently integrating a state-of-the-art Kalman-based Multi-Object Tracker, <a href="https://github.com/ifzhang/ByteTrack">ByteTracker</a>, with the YOLOX detector. This advanced tracking system would be employed to track and avoid forklifts in warehouses.</p>
+Developed an advanced object detection system, Locus Learning, utilizing transfer learning with to detect LocusBots, persons, carts and other objects in real-time within indoor warehouse environments.</p>
+<ul>
+<li>Optimized model inference by porting it from Python to C++, achieving a 15% reduction in inference time and a 35% decrease in CPU load.</li>
+<li>Single-handedly integrated the object detector into the existing Locus framework, converted PyTorch weights into ONNX format for faster Intel iGPU inference, and introduced a lightweight inference visualizer for enhanced detection performance.</li>
+<li>Integrating a state-of-the-art Kalman-based Multi-Object Tracker, <a href="https://github.com/ifzhang/ByteTrack">ByteTracker</a>, with the Object detector. This advanced tracking system is employed to track and avoid forklifts in warehouses.</li>
+</ul>
+<p><strong>Cart Filter for Vectors</strong> Designed and implemented a per-sensor filtering system to exclude carts from sensor data once a robot attaches itself to a cart, significantly improving navigation performance and reducing mission time by 14% <a href="https://fast.wistia.com/embed/iframe/fapesmz0jn.jsonp?autoplay=1">(Video)</a>.This system prevents the robot from misinterpreting the attached cart as an external obstacle, allowing for smoother trajectory planning and avoiding unnecessary detours.</p>
+<ul>
+<li>LiDAR Filtering: Each LiDAR sensor operates its own dedicated filtering module to dynamically remove cart leg reflections from the scan data. The filtering range is fully customizable, allowing users to adjust parameters on-the-fly based on specific cart dimensions or deployment environments.</li>
+<li>Depth Camera Filtering: For every depth sensor, a real-time mask is computed based on the camera’s field of view and the known geometry of the cart. These masks filter out cart-related depth points before they reach the obstacle costmap. The entire processing pipeline is offloaded to the onboard iGPU, ensuring minimal latency and maintaining real-time performance under compute constraints.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Engineer - Robotics and Perception</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://locusrobotics.com/" target="_blank" rel="noopener">Locus Robotics</a></h4>
+            <div class="text-muted exp-meta">
+              April, 2022 –
+              
+                March, 2024
+              
+              
+                <span class="middot-divider"></span>
+                <span>Vancouver</span>
+              
+            </div>
+            <div class="card-text"><p><strong>Forklift Detection via Apriltags</strong>
+Used a new Apriltag3 family with Forklifts to avoid robot-forklift collisions. Detected fiducial markers are used to define dynamic &lsquo;danger zones&rsquo; in the robot’s costmap, treated as obstacles during navigation. This approach significantly reduced collision incidents, lowering repair costs and boosting operational efficiency.</p>
 <p><strong>Fiducial Marker Detection</strong>
 Upgraded the fiducial marker detection system to AprilTag3, resulting in a 22% increase in frame processing speed and a 28% improvement in recall. Replaced image undistortion with Region of Interest (RoI) rectification for tag detectors, reducing NUC load by approximately 5%. Additionally, integrated Locus’s fiducial markers with the state-of-the-art deep-learning tag detector, <a href="https://github.com/herohuyongtao/deeptag-pytorch">DeepTag</a>, to enhance overall detection accuracy and efficiency.</p>
 <p><strong>Camera Calibration</strong> Replaced individual camera calibrations with a standard calibration matrix for all cameras mounted on the robot, ensuring calibration errors remained within 1% of use-case-specific tolerance limits. This approach streamlined the calibration process, reducing robot deployment time by 6% and eliminating the need for per-camera calibrations for each robot.</p>
@@ -1222,15 +1271,475 @@ Here are some selected projects I worked on:</p>
   <div class="card">
     
     
-    <a href="https://github.com/ShivamThukral/pytorch-projects" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/pytorch_tutoirals/featured_hubc30c6ef8775ef00c1636318c06d9021_86050_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/10-Diffusion-Models.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/ddpm/featured_hucb951990b52a632f286dbee799bcad60_3070872_550x0_resize_q90_lanczos.gif" alt="" class="img-responsive">
     </a>
     
     <div class="card-text">
-      <h4><a href="https://github.com/ShivamThukral/pytorch-projects" target="_blank" rel="noopener">PyTorch Vision Tutorials</a></h4>
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/10-Diffusion-Models.ipynb" target="_blank" rel="noopener">Diffusion Model</a></h4>
       
       <div class="article-style">
-        <p>Multiple tutorials covering how to implement vision­focused deep learning architectures in PyTorch with torchvision.</p>
+        <p>DDPM are generative models that learn to transform Gaussian noise into data samples by iteratively denoising through a Markovian diffusion process. The model is trained on CIFAR10.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/08-ConditionalGANs.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/cgan/featured_hu407560312aafeffbe147d0dbc5c10c86_460227_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/08-ConditionalGANs.ipynb" target="_blank" rel="noopener">Conditional GAN</a></h4>
+      
+      <div class="article-style">
+        <p>Generative Adversarial Networks (GANs) consist of a generator and a discriminator trained in a competitive framework. This implementation is trained on the CelebA dataset and conditioned on attributes such as &lsquo;Male&rsquo; and &lsquo;Blond Hair&rsquo; to generate realistic face images.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/06-Vision_Transformers.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/vit/featured_hu9d956909f9423909b3e36e2fdcbcb6c5_117472_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/06-Vision_Transformers.ipynb" target="_blank" rel="noopener">Classification with Vision Transformers</a></h4>
+      
+      <div class="article-style">
+        <p>Demonstration of Vision Transformers applied to the CIFAR-10 dataset for classification.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/detection/06-Yolo.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/yolo/featured_hu29331af3ab5fe7828f68cb09f857ff1d_1441947_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/detection/06-Yolo.ipynb" target="_blank" rel="noopener">Yolo Object Detector</a></h4>
+      
+      <div class="article-style">
+        <p>YOLO model trained on the Pascal VOC dataset through transfer learning techniques.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/09-CLIP-Classification.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/clip/featured_hucf4d3ef5b8472b28b1efed8b1697c921_514945_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/09-CLIP-Classification.ipynb" target="_blank" rel="noopener">CLIP Classifcation</a></h4>
+      
+      <div class="article-style">
+        <p>A multimodal model by OpenAI that learns visual concepts from natural language supervision, enabling it to understand and relate images and text efficiently.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/segmentation/07-Unet.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/unet/featured_hu2a6aa39889fe24be9ae0df826cec8e38_312781_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/segmentation/07-Unet.ipynb" target="_blank" rel="noopener">Semantic Segmentation with UNet</a></h4>
+      
+      <div class="article-style">
+        <p>Training of the UNet architecture on the Oxford-IIIT Pet dataset for accurate image segmentation.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/03-AlexNet.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/alexnet/featured_hue24d768ac6d246b0d343dd9040e6a46b_165712_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/03-AlexNet.ipynb" target="_blank" rel="noopener">AlexNet</a></h4>
+      
+      <div class="article-style">
+        <p>Implementation the AlexNet architecture, the landmark model that won the 2012 ImageNet challenge. It uses the CIFAR-10 dataset for training and integrates TensorBoard for real-time visualization of metrics.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/05-ResNet.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/resnet-18/featured_hu9ac2f7356831ebcdb5e6954ca2f4ce52_202405_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/05-ResNet.ipynb" target="_blank" rel="noopener">ResNet-18</a></h4>
+      
+      <div class="article-style">
+        <p>ResNet18 trained from scratch on the CIFAR-10 dataset.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/01-Spatial_Transform_Networks.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/stn/featured_hu2ca217d044ef85cc647a788db5c72e4c_332011_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/01-Spatial_Transform_Networks.ipynb" target="_blank" rel="noopener">Spatial Transform Networks</a></h4>
+      
+      <div class="article-style">
+        <p>Spatial Transformer Networks allow a neural network to learn how to perform spatial transformations on the input image in order to enhance the geometric invariance of the model.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/04-Transfer_Learning_with_VGG16.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/vgg16/featured_hu88782fd3aa34c8a7797011341363ae71_155594_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/classification/04-Transfer_Learning_with_VGG16.ipynb" target="_blank" rel="noopener">Transfer learning with VGG16</a></h4>
+      
+      <div class="article-style">
+        <p>Built on the 2014 ImageNet Challenge winner, this project explores transfer learning for efficient adaptation.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
+  <div class="card">
+    
+    
+    <a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/11-MAE-MOCO-Embeddings.ipynb" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/mae_vs_moco/featured_hu17920f5c6db7a9326f79ff24feef80c9_255068_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/ShivamThukral/pytorch-projects/blob/devel/miscellaneous/11-MAE-MOCO-Embeddings.ipynb" target="_blank" rel="noopener">MAE vs MOCO Embedding</a></h4>
+      
+      <div class="article-style">
+        <p>A comparison between MoCo and MAE embeddings generate from CIFAR10 dataset.</p>
       </div>
       
     </div>
@@ -1632,98 +2141,6 @@ Here are some selected projects I worked on:</p>
 
 
 
-<div class="project-card project-item isotope-item js-id-Verification">
-  <div class="card">
-    
-    
-    <a href="https://github.com/ShivamThukral/Sudoku-Solver" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/sudoku_solver/featured_hu703c17adae129cd166277cf5199cc9a3_47509_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://github.com/ShivamThukral/Sudoku-Solver" target="_blank" rel="noopener">Sudoku SAT Solver</a></h4>
-      
-      <div class="article-style">
-        <p>Converted Sudoko as a Boolean Satisfiability Problem to solve it through SAT</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-          
-          
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-AI js-id-Vision">
-  <div class="card">
-    
-    
-    <a href="https://github.com/ShivamThukral/Text-Detection-and-Recognition" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/text_detection/featured_hu10a0c242961db5dac26c181a0685a5b3_233787_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://github.com/ShivamThukral/Text-Detection-and-Recognition" target="_blank" rel="noopener">Text Detection and Recognition in Natural Scenes</a></h4>
-      
-      <div class="article-style">
-        <p>Studied and summarised major approaches to perform text detection and recognition using deep learning techniques.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-          
-          
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
 <div class="project-card project-item isotope-item js-id-ROS">
   <div class="card">
     
@@ -1737,98 +2154,6 @@ Here are some selected projects I worked on:</p>
       
       <div class="article-style">
         <p>Developed an optimal path planning algorithm in obstacle rich environments. BugFlood unlike its predecessor uses a split and kill approach to advance in the environment. Performance of this algorithm was compared with different planners from Open Motion Planning Library (OMPL) and visibility graph methods.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-          
-          
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-ROS">
-  <div class="card">
-    
-    
-    <a href="https://github.com/ShivamThukral/Resolving-Message-Logic-Dependencies-in-ROS" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/bloated_messages/featured_hudde979475ede20ecabecd577e1221c9a_45488_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://github.com/ShivamThukral/Resolving-Message-Logic-Dependencies-in-ROS" target="_blank" rel="noopener">Resolving Message Logic Dependencies in ROS</a></h4>
-      
-      <div class="article-style">
-        <p>Developed a static analysis Clang based tool for ROS to reduce network latency and dropout rate by optimizing message size.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-          
-          
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Other">
-  <div class="card">
-    
-    
-    <a href="https://github.com/ShivamThukral/Clang-Analysis" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/clang-analysis/featured_hufc209997611d375c9bea2038044b93c2_8164_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://github.com/ShivamThukral/Clang-Analysis" target="_blank" rel="noopener">Characterization Tool for C/C++ codes</a></h4>
-      
-      <div class="article-style">
-        <p>A clang based tool to find different types of statements in C/C++ code. This tool is used generate meta-data for a ROS package.</p>
       </div>
       
     </div>
@@ -2023,71 +2348,6 @@ Here are some selected projects I worked on:</p>
     
 
   
-  <span >Aniruddha Singhal</span>, <span >Harshad Khadilkar</span>, <span >Venkat Raju Chintalapalli Patta</span>, <span >Deepak Raina</span>, <span >Venkatesh Srinivas Prasad</span>, <span >Shivam Thukral</span>, <span >Rajesh Sinha</span>, <span >Richa Verma</span>
-  </span>
-  (2019).
-  <a href="/publication/palletiser-us/">System and Method for Autonomous Multi-bin Parcel Loading System</a>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/palletiser-us/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://patentimages.storage.googleapis.com/36/fc/9d/7da12cf6cc6404/US20210253376A1.pdf" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
   <span >Aniruddha Singhal</span>, <span >Ayush Kumar</span>, <span >Shivam Thukral</span>, <span >Deepak Raina</span>, <span >Swagat Kumar</span>
   </span>
   (2020).
@@ -2138,6 +2398,71 @@ Here are some selected projects I worked on:</p>
   Video
 </a>
 
+
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Aniruddha Singhal</span>, <span >Harshad Khadilkar</span>, <span >Venkat Raju Chintalapalli Patta</span>, <span >Deepak Raina</span>, <span >Venkatesh Srinivas Prasad</span>, <span >Shivam Thukral</span>, <span >Rajesh Sinha</span>, <span >Richa Verma</span>
+  </span>
+  (2025).
+  <a href="/publication/palletiser-us/">System and Method for Autonomous Multi-bin Parcel Loading System</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/palletiser-us/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://patents.google.com/patent/US12307405B2/en" target="_blank" rel="noopener">
+  Source Document
+</a>
 
 
 
@@ -2744,7 +3069,7 @@ Here are some selected projects I worked on:</p>
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:tshivam2%20[at]%20student%20[dot]%20ubc%20[dot]%20ca">tshivam2 [at] student [dot] ubc [dot] ca</a></span>
+        <span id="person-email"><a href="mailto:shivam95thukral%20[at]%20gmail%20[dot]%20com">shivam95thukral [at] gmail [dot] com</a></span>
       </li>
       
 
